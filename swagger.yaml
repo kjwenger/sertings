@@ -36,7 +36,7 @@ paths:
         - info
       summary: Get information about API
       description: Get version, entry points, and statistics of API
-      operationId: getInfo
+      operationId: getinfo
       produces:
         - application/yaml
         - application/xml
@@ -47,7 +47,7 @@ paths:
           schema:
             type: object
             items:
-              $ref: '#/definitions/Info'
+              $ref: '#/definitions/info'
         '400':
           description: Invalid status value
 securityDefinitions:
@@ -63,7 +63,7 @@ securityDefinitions:
     name: api_key
     in: header
 definitions:
-  Info:
+  info:
     type: "object"
     properties:
       version:
