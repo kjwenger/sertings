@@ -1,0 +1,12 @@
+[submodule "sertings.sencha.extjs.6"]
+	path = sertings.sencha.extjs.6
+	url = https://github.com/kjwenger/sertings.sencha.extjs.6.git
+[submodule "sertings.vuejs.2"]
+	path = sertings.vuejs.2
+	url = https://github.com/kjwenger/sertings.vuejs.2.git
+[submodule "sertings.angularjs.4"]
+	path = sertings.angularjs.4
+	url = https://github.com/kjwenger/sertings.angularjs.4.git
+[submodule "sertings.nodejs.connect"]
+	path = sertings.nodejs.connect
+	url = https://github.com/kjwenger/sertings.nodejs.connect.git
